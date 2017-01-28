@@ -1,0 +1,275 @@
+<!--        @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz); -->
+        @import url(http://fonts.googleapis.com/css?family=Ubuntu+Condensed&subset=latin,latin-ext);
+        @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic&subset=latin,latin-ext);
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 30px;
+        }
+
+		h1, h2, h3, h4 {
+                        font-family: 'Ubuntu Condensed', sans-serif;
+			font-weight: 400;
+		}
+
+		h1 {
+			font-size: 2em;
+			margin-top: 0.1em;
+			margin-bottom: 0.2em;
+		}
+
+		h2 {
+			font-size: 1.5em;
+			margin-top: 0.3em;
+		}
+
+		h3 {
+			font-size: 1.2em;
+		}
+
+		h4 {
+			font-size: 1em;
+		}
+
+		ul li { margin: 0.75em 0; }
+
+		.narrow ul li { margin: 0.5em 0; }
+                .narrow div p { margin-top: 30px; margin-bottom: 10px; }
+                .narrow li p { margin-top: 30px; margin-bottom: 10px; }
+		.very-narrow ul li { margin: 0.2em 0; }
+		.very-very-narrow ul li { margin: 0.1em 0; }
+
+		code {
+			font-size: 0.7em;
+		}
+
+                .small .remark-code { font-size: 15px; }
+
+		.remark-slide-content {
+			padding: 0em 0em 0em 1em;
+			background-color: white;
+			font-size: 30px;
+		}
+
+		.remark-container {
+			background-color: beige;
+		}
+
+		.remark-slide-content pre {
+			margin-top: 15px;
+		}
+
+		.remark-slide {
+
+		}
+
+		.scaled img{
+			width: 90%;
+		}
+
+		.logo img {
+			width: 100px;
+		}
+		
+		p .logo {
+			position: absolute;
+			right: 20px;
+			top:  10px;
+		}
+	
+
+p .logo-left {
+    position: absolute;
+    left: 20px;
+    top:  10px;
+}
+
+.logo-left img {
+    width: 100px;
+}
+
+.red { color: #fa0000; }
+.blue { color: #0000B2; }
+
+.logo-sponsor img {
+    width: 250px;
+}
+
+/*        .remark-slide-number { visibility:hidden; } */
+
+.footnote {
+    bottom: 12px;
+    opacity: 0.5;
+    position: absolute;
+    left: 20px;
+    font-size: 20px;
+}
+
+.footnote-right {
+    bottom: 12px;
+    opacity: 0.5;
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+}
+
+.footnote-right a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.footnote-center a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.footnote-center {
+    bottom: 12px;
+    opacity: 0.5;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    font-size: 20px;
+    padding: 0 0 0 1em; /* to adjust margin to h1 margin */
+    text-align: center;
+}
+
+.footnote2 {
+    position: absolute;
+    bottom: 3em;
+    left: 0;
+    right: 0;
+    padding: 0 0 0 1em; /* to adjust margin to h1 margin */
+    font-size: 25px
+}
+
+.remark-slide-number {
+    font-size: 20px;
+}
+
+.questions h1 {
+    margin-top: 3em;
+}
+.title h1 {
+    margin-top: -1em;
+}
+
+span.box
+{
+  width:200px;
+  height:200px;
+/*  border:solid 1px #333; */
+  display:inline-block;
+  vertical-align:top;
+  box-sizing:border-box;
+  padding:10px;
+  color:#999;
+  position:relative;
+}
+
+span.box.sample:after
+{
+    content:attr(text);
+    position:absolute;
+    top:70px;
+    left:10px;
+    z-index:1;
+    font-family:Arial,sans-serif;
+    -webkit-transform: rotate(-45deg); /* Safari */
+    -moz-transform: rotate(-45deg); /* Firefox */
+    -ms-transform: rotate(-45deg); /* IE */
+    -o-transform: rotate(-45deg); /* Opera */
+    transform: rotate(-45deg);
+    font-size:40px;
+    color:#c00;
+    background:#fff;
+    border:solid 4px #c00;
+    padding:5px;
+    border-radius:5px;
+    zoom:1;
+    filter:alpha(opacity=20);
+    opacity:0.2;
+    -webkit-text-shadow: 0 0 2px #c00;
+    text-shadow: 0 0 2px #c00;
+    box-shadow: 0 0 2px #c00;
+    width: 150px; /* my */
+}
+
+span.box.sample.right-bottom {
+   position: absolute;
+   bottom: 55px;
+   right: 30px;
+   text-align: center;
+}
+
+span.box.sample.right-middle {
+   position: absolute;
+   bottom: 250px;
+   right: 30px;
+   text-align: center;
+}
+
+span.box.sample.right-top {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    text-align: center;
+    -webkit-transform: rotate(+90deg); /* Safari */
+    -moz-transform: rotate(+90deg); /* Firefox */
+    -ms-transform: rotate(+90deg); /* IE */
+    -o-transform: rotate(+90deg); /* Opera */
+    transform: rotate(+90deg);
+}
+
+.point-by-point ul li {
+    color: #777;
+}
+.point-by-point ul li:last-of-type, .point-by-point ul li:last-child {
+    color: #000;
+}
+
+p .unroll2 {
+    position: absolute;
+    right: 15%;
+    top:  52%;
+    text-align: right;
+}
+
+.unroll2 img {
+    width: 130%;
+}
+
+p .unroll3 {
+    position: absolute;
+    right: 15%;
+    top:  56%;
+    text-align: right;
+}
+
+.unroll3 img {
+    width: 130%;
+}
+
+/*
+div .remark-slide-container {
+    background-color: black;
+}
+*/
+
+/* Two-column layout */
+.left-column {
+    width: 45%;
+    float: left;
+    text-align: right;
+    margin-top: 2em;
+}
+.left-column h2:last-of-type, .left-column h3:last-child {
+    color: #000;
+}
+.right-column {
+    width: 45%;
+    float: right;
+    text-align: left;
+    margin-top: 2em;
+}
+
