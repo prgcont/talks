@@ -1,0 +1,19 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: registry
+  annotations:
+    prometheus.io/scrape: "metrics-endpoint"
+spec:
+  selector:
+    app: registry
+  ports:
+  - name: docker
+    protocol: TCP
+    port: 5002
+  - name: metrics-docker
+    protocol: TCP
+    port: 6002
+    targetPort: 6002
+
+# vim: syntax=yaml

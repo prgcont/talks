@@ -1,0 +1,9 @@
+namespace: registry
+resources:
+- deployment.yml
+- svc.yml
+- ingress.yml
+
+images:
+- name: registry
+  newTag: 2.8.1
